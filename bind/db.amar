@@ -1,0 +1,18 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	amar-idnacademy.id. root.amar-idnacademy.id. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	amar-idnacademy.id.
+	IN	NS	ns1.amar-idnacademy.id.
+	IN	NS	ns2.amar-idnacademy.id.
+@	IN	A	10.23.1.209
+www	IN	A	10.23.1.209
+ns1	IN	A	10.23.1.209
+ns2	IN	A	10.23.1.218
