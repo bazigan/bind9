@@ -10,6 +10,5 @@ $TTL	604800
 			 604800 )	; Negative Cache TTL
 ;
 @	IN	NS	amar-idnacademy.id.
-209	IN	PTR	amar-idnacademy.id.
 209	IN	PTR	ns1.amar-idnacademy.id.
 218	IN	PTR	ns2.amar-idnacademy.id.
